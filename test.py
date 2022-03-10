@@ -41,6 +41,15 @@ class TestAPI(unittest.TestCase):
             path=new_path, content_type=self.content_type
         )
         self.assertEqual(response.status_code, 404)
+    #TODO
+    def test_task(self):
+        pass
+    
+    def test_update_task(self):
+        pass
+    
+    def test_delete_task(self):
+        pass
 
 if __name__=='__main__':
     unittest.main()
